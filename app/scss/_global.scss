@@ -1,0 +1,24 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  background-color: $dark-blue;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "landing-page",
+    "source": "index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.10.3",
+        "parcel": "^2.10.3"
+    }
+}
