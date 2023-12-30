@@ -8,5 +8,14 @@ main {
     top: 6px;
     right: 6px;
     float: right;
+
+    &--shown {
+      display: block;
+    }
+  }
+  .input {
+    &--invalid {
+      border: solid 1px $red;
+    }
   }
 }

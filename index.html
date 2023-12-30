@@ -25,20 +25,28 @@
         <div class="card">
           <form action="" class="form">
             <div class="input-wrapper">
-              <input type="text" id="first-name" class="first-name" placeholder="First Name">
-              <label class="error-icon" for="first-name"><img src="images/icon-error.svg" alt="Error Icon"></label>
+              <input type="text" id="first-name" class="input" placeholder="First Name">
+              <label id="first-error-icon" class="error-icon" for="first-name"><img src="images/icon-error.svg"
+                  alt="Error Icon"></label>
+              <p id="first-name-err" class="error-message"></p>
             </div>
             <div class="input-wrapper">
-              <input type="text" id="last-name" class="last-name" placeholder="Last Name">
-              <label class="error-icon" for="last-name"><img src="images/icon-error.svg" alt="Error Icon"></label>
+              <input type="text" id="last-name" class="input" placeholder="Last Name">
+              <label id="last-error-icon" class="error-icon" for="last-name"><img src="images/icon-error.svg"
+                  alt="Error Icon"></label>
+              <p id="last-name-err" class="error-message"></p>
             </div>
             <div class="input-wrapper">
-              <input type="email" id="email" class="email" placeholder="Email Address">
-              <label class="error-icon" for="email"><img src="images/icon-error.svg" alt="Error Icon"></label>
+              <input type="email" id="email" class="input" placeholder="Email Address">
+              <label id="mail-error-icon" class="error-icon" for="email"><img src="images/icon-error.svg"
+                  alt="Error Icon"></label>
+              <p id="email-err" class="error-message"></p>
             </div>
             <div class="input-wrapper">
-              <input type="password" id="password" class="password" placeholder="Password">
-              <label class="error-icon" for="password"><img src="images/icon-error.svg" alt="Error Icon"></label>
+              <input type="password" id="password" class="input" placeholder="Password">
+              <label id="password-error-icon" class="error-icon" for="password"><img src="images/icon-error.svg"
+                  alt="Error Icon"></label>
+              <p id="password-err" class="error-message"></p>
             </div>
             <button type="submit" class="submit-btn">Claim your free trial</button>
           </form>
