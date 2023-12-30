@@ -24,13 +24,26 @@
         </div>
         <div class="card">
           <form action="" class="form">
-            <input type="text" class="first-name" placeholder="First Name">
-            <input type="text" class="last-name" placeholder="Last Name">
-            <input type="email" class="email" placeholder="Email Address">
-            <input type="password" class="password" placeholder="Password">
+            <div class="input-wrapper">
+              <input type="text" id="first-name" class="first-name" placeholder="First Name">
+              <label class="error-icon" for="first-name"><img src="images/icon-error.svg" alt="Error Icon"></label>
+            </div>
+            <div class="input-wrapper">
+              <input type="text" id="last-name" class="last-name" placeholder="Last Name">
+              <label class="error-icon" for="last-name"><img src="images/icon-error.svg" alt="Error Icon"></label>
+            </div>
+            <div class="input-wrapper">
+              <input type="email" id="email" class="email" placeholder="Email Address">
+              <label class="error-icon" for="email"><img src="images/icon-error.svg" alt="Error Icon"></label>
+            </div>
+            <div class="input-wrapper">
+              <input type="password" id="password" class="password" placeholder="Password">
+              <label class="error-icon" for="password"><img src="images/icon-error.svg" alt="Error Icon"></label>
+            </div>
             <button type="submit" class="submit-btn">Claim your free trial</button>
           </form>
-          <p class="terms-services">By clicking the button, you are agreeing to our <a href="#" class="terms-link">Terms and Services</a></p>
+          <p class="terms-services">By clicking the button, you are agreeing to our <a href="#" class="terms-link">Terms
+              and Services</a></p>
         </div>
       </div>
     </div>

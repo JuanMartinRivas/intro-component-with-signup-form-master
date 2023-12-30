@@ -1,0 +1,12 @@
+main {
+  .input-wrapper {
+    position: relative;
+  }
+  .error-icon {
+    display: none;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    float: right;
+  }
+}
