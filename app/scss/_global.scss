@@ -2,10 +2,8 @@ html {
   font-size: 16px;
 }
 
-h1 {
-  background-color: $dark-blue;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -17,7 +15,7 @@ h1 {
 .row {
   display: flex;
   flex-direction: column;
-  
+
   @media (min-width: 900px) {
     flex-direction: row;
   }
