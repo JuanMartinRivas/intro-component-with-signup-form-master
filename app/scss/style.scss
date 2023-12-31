@@ -1,7 +1,9 @@
 //Global
-@import 'colors';
-@import 'fonts';
-@import 'reset';
-@import 'global';
+@import "colors";
+@import "fonts";
+@import "reset";
+@import "global";
 //Modules
-@import 'main';
+@import "main";
+@import "form";
+@import "error";

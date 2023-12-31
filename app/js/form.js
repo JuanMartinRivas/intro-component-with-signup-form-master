@@ -55,7 +55,7 @@ function checkInput() {
 
 function checkEmail() {
     if (email.validity.typeMismatch) {
-        emailErr.textContent = "Please provide a valid email address";
+        emailErr.textContent = "Looks like this is not an email";
         email.classList.add('input--invalid')
         emailErrIcon.classList.add('error-icon--shown')
     } else if (email.value.length == 0) {

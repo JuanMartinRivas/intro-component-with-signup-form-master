@@ -1,0 +1,38 @@
+form {
+    .input {
+        font-size: .75rem;
+        font-weight: 700;
+        width: 100%;
+        border: solid 1px $grayish-blue;
+        border-radius: 4px;
+        padding: 1em;
+    }
+
+    .input-wrapper {
+        margin-bottom: 1em;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        width: 100%;
+        background-color: $green;
+        color: #FFF;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 4px rgba(49, 179, 123);
+        padding: 1em;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        cursor: pointer;
+        transition: .25s;
+
+        &:hover {
+            opacity: .75;
+        }
+
+        &:active {
+            transform: translateY(4px);
+            box-shadow: 0 0 rgba(49, 179, 123);
+        }
+    }
+}

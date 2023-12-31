@@ -5,50 +5,69 @@ main {
   .main-title {
     text-align: center;
     font-size: 1.5rem;
+
+    @media(min-width: 900px) {
+      font-size: 3rem;
+      text-align: left;
+    }
   }
 
   .main-text {
     text-align: center;
     margin-top: 2em;
-    margin-bottom: 4em;
+
+    @media(min-width: 900px) {
+      text-align: left;
+    }
   }
 
   .card {
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
-    padding: 1em;
+    box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.15);
+    padding: 2em;
 
     &--purple {
       background-color: $blue;
+      margin-bottom: 1.5em;
+      padding: 1.5em;
     }
   }
 
   .trial-text {
     text-align: center;
+    margin: 0 auto;
+    width: 85%;
 
     .thick {
       font-weight: 700;
     }
   }
 
-  .input-wrapper {
-    position: relative;
+  .col-left {
+    flex: .8;
   }
-  .error-icon {
-    display: none;
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    float: right;
 
-    &--shown {
-      display: block;
-    }
+  .col-right {
+    flex: .8;
   }
-  .input {
-    &--invalid {
-      border: solid 1px $red;
+
+  .terms-services {
+    color: $grayish-blue;
+    font-size: .75rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 95%;
+
+    .terms-link {
+      color: $red;
+      transition: .25s;
+
+      &:hover {
+        opacity: .75;
+      }
     }
   }
 }

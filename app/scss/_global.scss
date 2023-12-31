@@ -15,12 +15,20 @@ body {
 .container {
   margin: 0 auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 480px;
+
+  @media(min-width: 900px) {
+    width: 78%;
+    max-width: 1200px;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4em;
 
   @media (min-width: 900px) {
     flex-direction: row;
