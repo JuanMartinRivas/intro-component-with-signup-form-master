@@ -4,6 +4,12 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url(../../images/bg-intro-mobile.png);
+  background-color: $red;
+
+  @media (min-width: 900px) {
+    background-image: url(../../images/bg-intro-desktop.png);
+  }
 }
 
 .container {

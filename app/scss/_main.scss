@@ -1,4 +1,37 @@
 main {
+  color: #fff;
+  margin-top: 6em;
+
+  .main-title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .main-text {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1em;
+
+    &--purple {
+      background-color: $blue;
+    }
+  }
+
+  .trial-text {
+    text-align: center;
+
+    .thick {
+      font-weight: 700;
+    }
+  }
+
   .input-wrapper {
     position: relative;
   }
