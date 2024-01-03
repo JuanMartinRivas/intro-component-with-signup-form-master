@@ -1,0 +1,228 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+ul[role="list"], ol[role="list"] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizespeed;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ff7a7a;
+  background-image: url("bg-intro-mobile.101781c4.png");
+  font-family: Poppins, sans-serif;
+}
+
+@media (width >= 900px) {
+  body {
+    background-image: url("bg-intro-desktop.5974f34b.png");
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (width >= 900px) {
+  .container {
+    width: 78%;
+    max-width: 1200px;
+  }
+}
+
+.row {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4em;
+  display: flex;
+}
+
+@media (width >= 900px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+main {
+  color: #fff;
+  margin-top: 6em;
+}
+
+main .main-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (width >= 900px) {
+  main .main-title {
+    text-align: left;
+    font-size: 3rem;
+  }
+}
+
+main .main-text {
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media (width >= 900px) {
+  main .main-text {
+    text-align: left;
+  }
+}
+
+main .card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2em;
+  overflow: hidden;
+  box-shadow: 0 10px #00000026;
+}
+
+main .card--purple {
+  background-color: #6055a5;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+}
+
+main .trial-text {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+main .trial-text .thick {
+  font-weight: 700;
+}
+
+main .col-left, main .col-right {
+  flex: .8;
+}
+
+main .terms-services {
+  color: #b9b6d3;
+  text-align: center;
+  width: 95%;
+  margin: 1em auto 0;
+  font-size: .75rem;
+}
+
+main .terms-services .terms-link {
+  color: #ff7a7a;
+  transition: all .25s;
+}
+
+main .terms-services .terms-link:hover {
+  opacity: .75;
+}
+
+form .input {
+  border: 1px solid #b9b6d3;
+  border-radius: 4px;
+  width: 100%;
+  padding: 1em;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+form .input-wrapper {
+  margin-bottom: 1em;
+}
+
+form .submit-btn {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  cursor: pointer;
+  background-color: #38cc8c;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1em;
+  font-size: 1rem;
+  transition: all .25s;
+  box-shadow: 0 4px #31b37b;
+}
+
+form .submit-btn:hover {
+  opacity: .75;
+}
+
+form .submit-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 #31b37b;
+}
+
+form .input-wrapper {
+  position: relative;
+}
+
+form .error-message {
+  color: #ff7a7a;
+  text-align: right;
+  margin-top: .25em;
+  font-size: .75rem;
+  font-style: italic;
+}
+
+form .error-icon {
+  float: right;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+form .error-icon--shown {
+  display: block;
+}
+
+form .input--invalid {
+  color: #ff7a7a;
+  border: 1px solid #ff7a7a;
+}
+
+form .input--invalid::placeholder {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.db23566c.css.map */
